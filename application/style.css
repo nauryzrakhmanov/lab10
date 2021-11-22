@@ -1,0 +1,80 @@
+body {
+	background-image: url(https://bykvu.com/wp-content/uploads/2016/03/19/167426acfc93b245dc9a37f3414bcf54-1556x1100.jpg) ;
+	background-repeat: no-repeat;
+}
+.movie { 
+}
+.movie__header h2  { 
+	text-align: center;	
+	font-family: "Times New Roman", serif;
+	font-weight: bold;
+}
+.movie__body {
+	width: 450px;
+	margin-top: 15px;
+	margin-left: 50px;
+	background-color: #F5F5DC;
+
+}
+label {
+	margin-left: 5px;
+}
+#fullName { 
+	margin-left: 25px;
+	width: 400px;
+}
+
+#author {
+	margin-left: 25px;
+	width: 400px;
+}
+#typeofmovie {
+	margin-left: 25px;
+	width: 400px;
+}
+#year {
+	margin-left: 25px;
+	width: 400px;
+}
+#duration {
+	margin-left: 25px;
+	width: 400px;
+}
+
+.type__submit {
+	margin-left: 175px;
+	}
+.type {
+	font-weight: bold;
+}
+
+.movie__footer {
+	margin-top: -300px;
+	margin-left: 900px;
+}
+
+.anim {
+	animation: animatioN infinite 10s linear;
+}
+
+@keyframes animatioN {
+    0% {
+        color: orange;
+    }
+    33% {
+        color: red;
+    }
+    66% {
+        color: blue;
+    }
+    100% {
+        color: orange;
+    }
+}
+  .down {
+      width: 0px;
+      height: 0px;
+      border-left: 17px solid transparent;
+      border-right: 17px solid transparent;
+      border-top: 25px solid #FAEBD7;
+  } 
